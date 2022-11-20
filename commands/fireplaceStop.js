@@ -9,9 +9,6 @@ async function StartFireplace(interaction) {
 		.setColor('LightGrey')
 		.setTitle('Well that was fun :crescent_moon:')
 		.setDescription('Time to put the fireplace out for the night')
-	// .setImage(
-	// 	'https://cdn.discordapp.com/attachments/1043937485606109296/1043938362840592454/fireplace.png'
-	// )
 	await interaction.reply({ embeds: [fireplaceEmbed] })
 }
 
